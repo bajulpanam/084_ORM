@@ -3,7 +3,7 @@ const e = require("express");
 module.exports = (sequelize, DataTypes) => {
     const Komik = sequelize.define("Komik", {
         id: {
-            type: DataTypes.INTEGNER,
+            type: DataTypes.INTEGER,
             autoIncrement: true,
             primaryKey: true
         },
